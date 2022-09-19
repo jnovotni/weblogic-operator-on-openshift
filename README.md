@@ -5,7 +5,7 @@ This document is a guide to getting started with the [WebLogic Kubernetes Operat
 ## Prerequisites
 - You must have an account that has permission to access the Oracle Container Registry. This enables you to pull the base image used in the steps below. If you do not already have an account, you can go to https://container-registry.oracle.com and create one.
 - You must have the OpenShift command line tools installed (including `oc` and `kubectl`). You can download the latest tools from [this link](https://mirror.openshift.com/pub/openshift-v4/x86_64/clients/ocp/stable-4.7/) (you'll look for the `openshift-client-{{ operating-system }}` file). 
-- You must have Helm (v3) installed on your local machine. You can find instructions to install the tool at [this link](https://helm.sh/docs/helm/helm_install/). 
+- You must have Helm (v3) installed on your local machine. You can find instructions to install the tool at [this link](https://helm.sh/docs/intro/install/). 
 - You must have either Docker or Podman installed locally on your machine. It will be used it to pull, push, and build images. If you are looking to use Docker, follow these docs to install on [Mac](https://docs.docker.com/docker-for-mac/install/) or [Windows](https://docs.docker.com/docker-for-windows/install/)). If you're looking to use Podman (Linux) ensure that you have some kind of docker command emulation setup (such as the podman-docker package) so that the scripts run successfully.
 - You must have Java 8 installed and your JAVA_HOME variable set. You can find instructions at [this link](https://developers.redhat.com/blog/2018/12/10/install-java-rhel8#).
 - You must have Maven [downloaded](https://maven.apache.org/download.cgi) and [installed](https://maven.apache.org/install.html).
